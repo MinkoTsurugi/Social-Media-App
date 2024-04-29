@@ -3,9 +3,9 @@ import { styled } from "@mui/system";
 
 const WidgetWrapper = styled(Box) (({ theme }) => (
   {
-    padding: "1.5rem 1.5rem 0.75 rem 1.5 rem",
+    padding: "1.5rem 1.5rem 0.75rem 1.5rem",
     backgroundColor: theme.palette.background.alt,
-    borderRadius: "o.75rem"
+    borderRadius: "0.75rem"
   }
 ));
 

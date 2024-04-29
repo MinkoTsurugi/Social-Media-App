@@ -55,7 +55,7 @@ const Navbar = () => {
             {theme.palette.mode === "dark" ? (
               <DarkMode sx={{ fontSize: "25px" }}/>
             ) : (
-            <LightMode sx={{ color:dark, fontSize: "25px" }}/>
+            <LightMode sx={{ color: dark, fontSize: "25px" }}/>
             )}
           </IconButton>
           <Message sx={{ fontSize: "25px" }}/>
@@ -94,7 +94,7 @@ const Navbar = () => {
         )}
 
         {/* Mobile Nav */}
-        {!isMobileMenuToggled && isMobileMenuToggled && (
+        {!isNonMobileScreens && isMobileMenuToggled && (
           <Box
             position="fixed"
             right="0"
