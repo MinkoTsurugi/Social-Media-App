@@ -4,9 +4,9 @@ import Navbar from "scenes/navbar";
 import UserWidget from "scenes/widgets/UserWidget";
 
 const HomePage = () => {
-  const isNonMobileScreen = useMediaQuery("(min-width:1000px");
+  const isNonMobileScreen = useMediaQuery("(min-width:1000px)");
   const { _id, picturePath } = useSelector((state) => state.user);
-  return ( 
+  return (
     <Box>
       <Navbar />
       <Box
@@ -27,7 +27,7 @@ const HomePage = () => {
         {isNonMobileScreen && <Box flexBasis="26%"></Box>}
       </Box>
     </Box>
-   );
+  );
 };
- 
+
 export default HomePage;
